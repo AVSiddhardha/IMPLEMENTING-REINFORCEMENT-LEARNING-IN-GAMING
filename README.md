@@ -11,8 +11,3 @@
 - **Training the Reinforcement Model**: The Proximal Policy Optimization (PPO) algorithm is chosen for training. Dependencies like os for file path management, PPO for algorithms, and BaseCallback for saving models are imported. A custom class, TrainAndLoggingCallback(BaseCallback), contains code for model training.
   
 - **Testing**: Model testing involves loading the trained model from memory or file using methods like model.load or ppo.load, ensuring the AI's adaptability post-training. The code's output opens in a new window upon execution.
-  
-## 👥 Contributors
-- **Macha Padmini**: Contribution involves implementing DDQN‑based training loops, optimizing reward functions, and ensuring stable convergence across Mario environments through iterative tuning. Work also includes coordinating environment interactions and validating agent adaptability using structured evaluation workflows.
-
-- **Venkata Siddhardha Alla**: Contribution involves configuring emulator environments, refining preprocessing pipelines, and validating agent performance through reproducible testing cycles, ensuring consistent behavior across multiple training iterations.
